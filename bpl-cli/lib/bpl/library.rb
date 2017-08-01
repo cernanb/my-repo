@@ -1,8 +1,3 @@
-require 'nokogiri'
-require 'open-uri'
-require 'pry'
-require_relative 'version'
-
 class BPL::Library
 
   attr_accessor :name, :address, :zip_code, :neighborhood, :contact_number, :hours

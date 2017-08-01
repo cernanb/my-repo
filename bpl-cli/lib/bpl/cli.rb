@@ -1,8 +1,3 @@
-require_relative 'version'
-require_relative 'library'
-
-require 'pry'
-
 class BPL::CLI
 
   attr_accessor :libraries, :neighborhoods
